@@ -21,7 +21,7 @@
     }
 
     $showmaxVal = maxValue($randomArray);
-    echo "<h1>The maximum value is". $showmaxVal . "!</h1>";
+    echo "<h1>The maximum value is ". $showmaxVal . "!</h1>";
 ?>
     
 </body>
