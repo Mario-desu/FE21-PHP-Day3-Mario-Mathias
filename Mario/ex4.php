@@ -35,7 +35,7 @@ etc. -->
 <?php
 
 function iterateInt() {
-    for($i = 0; $i <=100; $i++){
+    for($i = 1 ; $i <=100; $i++){
         if ($i%3 == 0 && $i%5 == 0) 
             echo "<div style=color:green>Full-Stack</div>";
 
