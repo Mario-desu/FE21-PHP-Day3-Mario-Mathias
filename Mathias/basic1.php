@@ -1,5 +1,7 @@
 <?php
 
+// Create a for loop which will print your name 50 times on the screen. Do the same with while and do while loop.
+
 
 $name = "Mathias";
 
