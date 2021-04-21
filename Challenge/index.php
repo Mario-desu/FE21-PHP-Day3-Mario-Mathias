@@ -18,13 +18,17 @@
     <title>Document</title>
 </head>
 <body>
+<div class="container">
 <a  href="create.php">New Entry</a><br><br>
+
+<div class="row row-cols-1 row-cols-md-2 g-2">
+
 <?php 
     
        foreach ($rows as $row) {
            
 
-            echo '<div class="card" style="width: 18rem;">
+            echo '<div class="col"><div class="card" style="width: 18rem;">
             <img src="'.$row['image'].'" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">'.$row['name'].'</h5>
@@ -32,13 +36,14 @@
               <p class="card-text">Preis in €: '.$row['price'].'</p>
               <a class="btn btn-primary" href="delete.php?id='.$row['dish_ID'].'">Delete</a>
             </div>
-          </div>';
+          </div></div>';
 
 
 
         }
        ?>
-
-
+       
+</div>
+</div>
 </body>
 </html>
