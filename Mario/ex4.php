@@ -46,8 +46,7 @@ function iterateInt() {
             echo "<div style=color:red>Back-End</div>";
 
         else 
-            echo "$i<br>";
-        
+            echo "$i<br>";       
 
     }
 }
